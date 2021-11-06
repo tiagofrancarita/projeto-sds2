@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { type } from 'os';
 import { useEffect, useState } from 'react';
 import Chart from 'react-apexcharts';
 import { SaleSuccess } from 'types/sale';
@@ -66,7 +65,7 @@ function BarChart() {
         },
     };
     
-    const mockData = {
+    /*const mockData = {
         labels: {
             categories: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
         },
@@ -76,7 +75,7 @@ function BarChart() {
                 data: [43.6, 67.1, 67.7, 45.6, 71.1]                   
             }
         ]
-    };
+    };*/
 
     return (
         <Chart 
