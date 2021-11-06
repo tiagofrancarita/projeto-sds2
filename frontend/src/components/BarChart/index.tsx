@@ -53,10 +53,6 @@ function BarChart() {
         });
     } , [])
 
-
-
-
-
     const options = {
         plotOptions: {
             bar: {
